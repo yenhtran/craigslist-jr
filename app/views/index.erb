@@ -3,7 +3,8 @@
 
       <h2>Categories</h2>
 
-      <ul><% Category.all.each do |category| %>
+      <ul>
+        <% Category.all.each do |category| %>
           <li><%= category.name %></li>
           <% end %>
       </ul>
