@@ -5,7 +5,7 @@
 
       <ul>
         <% Category.all.each do |category| %>
-          <li><%= category.name %></li>
+          <a href="/<%=category.name%>"><li><%= category.name %></li></a>
           <% end %>
       </ul>
 

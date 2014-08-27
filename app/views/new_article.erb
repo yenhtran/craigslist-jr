@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>New Article</h1>
+
+
+  <form action="/<%=params[:category]%>/new_article" method="post">
+    Name
+    <input type="text" name="name">
+    Description
+    <input type="text" name="description">
+    Price
+    <input type="text" name="price">
+    Email
+    <input type="text" name="email">
+
+    <input type="submit" value="submit">
+  </form>
+</div>

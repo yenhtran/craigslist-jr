@@ -5,6 +5,7 @@ class CreateArticles < ActiveRecord::Migration
       col.string :description
       col.integer :price
       col.string :email
+      col.integer :key
 
       col.timestamps
 
